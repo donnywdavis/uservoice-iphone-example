@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UVDemoAppDelegate.h
 //  UVDemo
 //
 //  Created by Donny Davis on 9/16/16.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UVDemoAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end

@@ -18,29 +18,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8U4-mi-DRH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQE-wL-zpS">
                                 <state key="normal" title="Forum"/>
+                                <connections>
+                                    <action selector="launchForum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gMR-Sm-7Nl"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfW-hx-jAC">
-                                <state key="normal" title="Idea Forum"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVv-hS-4cg">
+                                <state key="normal" title="Idea Form"/>
+                                <connections>
+                                    <action selector="launchIdeaForm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IHQ-57-QZK"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnR-Pb-6yh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NO-3c-I63">
                                 <state key="normal" title="Ticket Form"/>
+                                <connections>
+                                    <action selector="launchTicketForm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HBf-xk-a6s"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9I-Am-5h5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJj-ow-KVi">
                                 <state key="normal" title="UserVoice"/>
+                                <connections>
+                                    <action selector="launchUserVoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jt9-SM-nfR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8U4-mi-DRH" firstAttribute="top" secondItem="N9I-Am-5h5" secondAttribute="bottom" constant="8" id="0QR-z0-M7Z"/>
-                            <constraint firstItem="N9I-Am-5h5" firstAttribute="centerX" secondItem="8U4-mi-DRH" secondAttribute="centerX" id="1jR-AC-3vR"/>
-                            <constraint firstItem="KfW-hx-jAC" firstAttribute="top" secondItem="8U4-mi-DRH" secondAttribute="bottom" constant="8" id="Giv-kd-fS9"/>
-                            <constraint firstItem="jnR-Pb-6yh" firstAttribute="centerX" secondItem="KfW-hx-jAC" secondAttribute="centerX" id="PRq-fs-3i0"/>
-                            <constraint firstItem="KfW-hx-jAC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="evS-CH-02V"/>
-                            <constraint firstItem="KfW-hx-jAC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hgZ-aF-7p7"/>
-                            <constraint firstItem="8U4-mi-DRH" firstAttribute="centerX" secondItem="KfW-hx-jAC" secondAttribute="centerX" id="j6d-9x-dhj"/>
-                            <constraint firstItem="jnR-Pb-6yh" firstAttribute="top" secondItem="KfW-hx-jAC" secondAttribute="bottom" constant="8" id="mvX-yF-TIu"/>
+                            <constraint firstItem="DQE-wL-zpS" firstAttribute="top" secondItem="qJj-ow-KVi" secondAttribute="bottom" constant="8" id="HhQ-OZ-egx"/>
+                            <constraint firstItem="WVv-hS-4cg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WMi-P6-S82"/>
+                            <constraint firstItem="qJj-ow-KVi" firstAttribute="centerX" secondItem="DQE-wL-zpS" secondAttribute="centerX" id="bRD-1o-5xt"/>
+                            <constraint firstItem="9NO-3c-I63" firstAttribute="centerX" secondItem="WVv-hS-4cg" secondAttribute="centerX" id="dRU-3g-lRb"/>
+                            <constraint firstItem="9NO-3c-I63" firstAttribute="top" secondItem="WVv-hS-4cg" secondAttribute="bottom" constant="8" id="iaa-rK-dvH"/>
+                            <constraint firstItem="WVv-hS-4cg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uB9-SZ-HQF"/>
+                            <constraint firstItem="DQE-wL-zpS" firstAttribute="centerX" secondItem="WVv-hS-4cg" secondAttribute="centerX" id="wBZ-OA-Ep9"/>
+                            <constraint firstItem="WVv-hS-4cg" firstAttribute="top" secondItem="DQE-wL-zpS" secondAttribute="bottom" constant="8" id="ylq-Vc-4Y9"/>
                         </constraints>
                     </view>
                 </viewController>

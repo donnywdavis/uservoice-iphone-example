@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  UVDemoAppDelegate.m
 //  UVDemo
 //
 //  Created by Donny Davis on 9/16/16.
 //  Copyright © 2016 UserVoice. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "UVDemoAppDelegate.h"
 
-@interface AppDelegate ()
+@interface UVDemoAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation UVDemoAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

@@ -7,88 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		412196931D8CE2B900057BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 412196921D8CE2B900057BF2 /* main.m */; };
-		412196961D8CE2B900057BF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412196951D8CE2B900057BF2 /* AppDelegate.m */; };
-		412196991D8CE2B900057BF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412196981D8CE2B900057BF2 /* ViewController.m */; };
-		4121969C1D8CE2B900057BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4121969A1D8CE2B900057BF2 /* Main.storyboard */; };
-		4121969E1D8CE2B900057BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4121969D1D8CE2B900057BF2 /* Assets.xcassets */; };
-		412196A11D8CE2B900057BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4121969F1D8CE2B900057BF2 /* LaunchScreen.storyboard */; };
+		412196B61D8CE38E00057BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 412196B51D8CE38E00057BF2 /* main.m */; };
+		412196B91D8CE38E00057BF2 /* UVDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412196B81D8CE38E00057BF2 /* UVDemoAppDelegate.m */; };
+		412196BC1D8CE38E00057BF2 /* UVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412196BB1D8CE38E00057BF2 /* UVViewController.m */; };
+		412196BF1D8CE38E00057BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412196BD1D8CE38E00057BF2 /* Main.storyboard */; };
+		412196C11D8CE38E00057BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412196C01D8CE38E00057BF2 /* Assets.xcassets */; };
+		412196C41D8CE38E00057BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412196C21D8CE38E00057BF2 /* LaunchScreen.storyboard */; };
+		417F58CD1D8DA1B800FBFE2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F58CC1D8DA1B800FBFE2A /* UIKit.framework */; };
+		417F58CF1D8DA1BF00FBFE2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F58CE1D8DA1BF00FBFE2A /* Foundation.framework */; };
+		417F58D11D8DA1C700FBFE2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F58D01D8DA1C700FBFE2A /* QuartzCore.framework */; };
+		417F58D31D8DA1F300FBFE2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F58D21D8DA1F300FBFE2A /* CoreGraphics.framework */; };
+		417F58D51D8DA20000FBFE2A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F58D41D8DA20000FBFE2A /* SystemConfiguration.framework */; };
+		8D1122A112E79A7498837157 /* libPods-UVDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE52D19F9CF723C39538BCF /* libPods-UVDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4121968E1D8CE2B900057BF2 /* UVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		412196921D8CE2B900057BF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		412196941D8CE2B900057BF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		412196951D8CE2B900057BF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		412196971D8CE2B900057BF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		412196981D8CE2B900057BF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4121969B1D8CE2B900057BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4121969D1D8CE2B900057BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		412196A01D8CE2B900057BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		412196A21D8CE2B900057BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D015D1A8BAC292FC37A172 /* Pods-UVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		412196B11D8CE38E00057BF2 /* UVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412196B51D8CE38E00057BF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		412196B71D8CE38E00057BF2 /* UVDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVDemoAppDelegate.h; sourceTree = "<group>"; };
+		412196B81D8CE38E00057BF2 /* UVDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVDemoAppDelegate.m; sourceTree = "<group>"; };
+		412196BA1D8CE38E00057BF2 /* UVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVViewController.h; sourceTree = "<group>"; };
+		412196BB1D8CE38E00057BF2 /* UVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVViewController.m; sourceTree = "<group>"; };
+		412196BE1D8CE38E00057BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		412196C01D8CE38E00057BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		412196C31D8CE38E00057BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		412196C51D8CE38E00057BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417F58CC1D8DA1B800FBFE2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		417F58CE1D8DA1BF00FBFE2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		417F58D01D8DA1C700FBFE2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		417F58D21D8DA1F300FBFE2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		417F58D41D8DA20000FBFE2A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ABE52D19F9CF723C39538BCF /* libPods-UVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0749BCD18CAD5F484B0DB0 /* Pods-UVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4121968B1D8CE2B900057BF2 /* Frameworks */ = {
+		412196AE1D8CE38E00057BF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417F58D51D8DA20000FBFE2A /* SystemConfiguration.framework in Frameworks */,
+				417F58D31D8DA1F300FBFE2A /* CoreGraphics.framework in Frameworks */,
+				417F58D11D8DA1C700FBFE2A /* QuartzCore.framework in Frameworks */,
+				417F58CF1D8DA1BF00FBFE2A /* Foundation.framework in Frameworks */,
+				417F58CD1D8DA1B800FBFE2A /* UIKit.framework in Frameworks */,
+				8D1122A112E79A7498837157 /* libPods-UVDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		412196851D8CE2B900057BF2 = {
+		412196A81D8CE38E00057BF2 = {
 			isa = PBXGroup;
 			children = (
-				412196901D8CE2B900057BF2 /* UVDemo */,
-				4121968F1D8CE2B900057BF2 /* Products */,
+				412196B31D8CE38E00057BF2 /* UVDemo */,
+				412196B21D8CE38E00057BF2 /* Products */,
+				417F58CB1D8DA1B800FBFE2A /* Frameworks */,
+				BB6D8635DCEF835394AA16AA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		4121968F1D8CE2B900057BF2 /* Products */ = {
+		412196B21D8CE38E00057BF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4121968E1D8CE2B900057BF2 /* UVDemo.app */,
+				412196B11D8CE38E00057BF2 /* UVDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		412196901D8CE2B900057BF2 /* UVDemo */ = {
+		412196B31D8CE38E00057BF2 /* UVDemo */ = {
 			isa = PBXGroup;
 			children = (
-				412196941D8CE2B900057BF2 /* AppDelegate.h */,
-				412196951D8CE2B900057BF2 /* AppDelegate.m */,
-				412196971D8CE2B900057BF2 /* ViewController.h */,
-				412196981D8CE2B900057BF2 /* ViewController.m */,
-				4121969A1D8CE2B900057BF2 /* Main.storyboard */,
-				4121969D1D8CE2B900057BF2 /* Assets.xcassets */,
-				4121969F1D8CE2B900057BF2 /* LaunchScreen.storyboard */,
-				412196A21D8CE2B900057BF2 /* Info.plist */,
-				412196911D8CE2B900057BF2 /* Supporting Files */,
+				412196B71D8CE38E00057BF2 /* UVDemoAppDelegate.h */,
+				412196B81D8CE38E00057BF2 /* UVDemoAppDelegate.m */,
+				412196BA1D8CE38E00057BF2 /* UVViewController.h */,
+				412196BB1D8CE38E00057BF2 /* UVViewController.m */,
+				412196BD1D8CE38E00057BF2 /* Main.storyboard */,
+				412196C01D8CE38E00057BF2 /* Assets.xcassets */,
+				412196C21D8CE38E00057BF2 /* LaunchScreen.storyboard */,
+				412196C51D8CE38E00057BF2 /* Info.plist */,
+				412196B41D8CE38E00057BF2 /* Supporting Files */,
 			);
 			path = UVDemo;
 			sourceTree = "<group>";
 		};
-		412196911D8CE2B900057BF2 /* Supporting Files */ = {
+		412196B41D8CE38E00057BF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				412196921D8CE2B900057BF2 /* main.m */,
+				412196B51D8CE38E00057BF2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		417F58CB1D8DA1B800FBFE2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417F58D41D8DA20000FBFE2A /* SystemConfiguration.framework */,
+				417F58D21D8DA1F300FBFE2A /* CoreGraphics.framework */,
+				417F58D01D8DA1C700FBFE2A /* QuartzCore.framework */,
+				417F58CE1D8DA1BF00FBFE2A /* Foundation.framework */,
+				417F58CC1D8DA1B800FBFE2A /* UIKit.framework */,
+				ABE52D19F9CF723C39538BCF /* libPods-UVDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB6D8635DCEF835394AA16AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D015D1A8BAC292FC37A172 /* Pods-UVDemo.debug.xcconfig */,
+				AE0749BCD18CAD5F484B0DB0 /* Pods-UVDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4121968D1D8CE2B900057BF2 /* UVDemo */ = {
+		412196B01D8CE38E00057BF2 /* UVDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 412196A51D8CE2B900057BF2 /* Build configuration list for PBXNativeTarget "UVDemo" */;
+			buildConfigurationList = 412196C81D8CE38E00057BF2 /* Build configuration list for PBXNativeTarget "UVDemo" */;
 			buildPhases = (
-				4121968A1D8CE2B900057BF2 /* Sources */,
-				4121968B1D8CE2B900057BF2 /* Frameworks */,
-				4121968C1D8CE2B900057BF2 /* Resources */,
+				C900E189B57E3CA948C3C9E8 /* [CP] Check Pods Manifest.lock */,
+				412196AD1D8CE38E00057BF2 /* Sources */,
+				412196AE1D8CE38E00057BF2 /* Frameworks */,
+				412196AF1D8CE38E00057BF2 /* Resources */,
+				1552E4F97DD501D5ED250983 /* [CP] Embed Pods Frameworks */,
+				20A590FDD6B5698AD0723191 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,25 +143,25 @@
 			);
 			name = UVDemo;
 			productName = UVDemo;
-			productReference = 4121968E1D8CE2B900057BF2 /* UVDemo.app */;
+			productReference = 412196B11D8CE38E00057BF2 /* UVDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		412196861D8CE2B900057BF2 /* Project object */ = {
+		412196A91D8CE38E00057BF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = UserVoice;
 				TargetAttributes = {
-					4121968D1D8CE2B900057BF2 = {
+					412196B01D8CE38E00057BF2 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 412196891D8CE2B900057BF2 /* Build configuration list for PBXProject "UVDemo" */;
+			buildConfigurationList = 412196AC1D8CE38E00057BF2 /* Build configuration list for PBXProject "UVDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -122,55 +169,103 @@
 				en,
 				Base,
 			);
-			mainGroup = 412196851D8CE2B900057BF2;
-			productRefGroup = 4121968F1D8CE2B900057BF2 /* Products */;
+			mainGroup = 412196A81D8CE38E00057BF2;
+			productRefGroup = 412196B21D8CE38E00057BF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4121968D1D8CE2B900057BF2 /* UVDemo */,
+				412196B01D8CE38E00057BF2 /* UVDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4121968C1D8CE2B900057BF2 /* Resources */ = {
+		412196AF1D8CE38E00057BF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412196A11D8CE2B900057BF2 /* LaunchScreen.storyboard in Resources */,
-				4121969E1D8CE2B900057BF2 /* Assets.xcassets in Resources */,
-				4121969C1D8CE2B900057BF2 /* Main.storyboard in Resources */,
+				412196C41D8CE38E00057BF2 /* LaunchScreen.storyboard in Resources */,
+				412196C11D8CE38E00057BF2 /* Assets.xcassets in Resources */,
+				412196BF1D8CE38E00057BF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1552E4F97DD501D5ED250983 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20A590FDD6B5698AD0723191 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UVDemo/Pods-UVDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C900E189B57E3CA948C3C9E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		4121968A1D8CE2B900057BF2 /* Sources */ = {
+		412196AD1D8CE38E00057BF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412196991D8CE2B900057BF2 /* ViewController.m in Sources */,
-				412196961D8CE2B900057BF2 /* AppDelegate.m in Sources */,
-				412196931D8CE2B900057BF2 /* main.m in Sources */,
+				412196BC1D8CE38E00057BF2 /* UVViewController.m in Sources */,
+				412196B91D8CE38E00057BF2 /* UVDemoAppDelegate.m in Sources */,
+				412196B61D8CE38E00057BF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4121969A1D8CE2B900057BF2 /* Main.storyboard */ = {
+		412196BD1D8CE38E00057BF2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4121969B1D8CE2B900057BF2 /* Base */,
+				412196BE1D8CE38E00057BF2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4121969F1D8CE2B900057BF2 /* LaunchScreen.storyboard */ = {
+		412196C21D8CE38E00057BF2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				412196A01D8CE2B900057BF2 /* Base */,
+				412196C31D8CE38E00057BF2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +273,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		412196A31D8CE2B900057BF2 /* Debug */ = {
+		412196C61D8CE38E00057BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		412196A41D8CE2B900057BF2 /* Release */ = {
+		412196C71D8CE38E00057BF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -268,24 +363,26 @@
 			};
 			name = Release;
 		};
-		412196A61D8CE2B900057BF2 /* Debug */ = {
+		412196C91D8CE38E00057BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D015D1A8BAC292FC37A172 /* Pods-UVDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UVDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UserVoice.UVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		412196A71D8CE2B900057BF2 /* Release */ = {
+		412196CA1D8CE38E00057BF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0749BCD18CAD5F484B0DB0 /* Pods-UVDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UVDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UserVoice.UVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,24 +392,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		412196891D8CE2B900057BF2 /* Build configuration list for PBXProject "UVDemo" */ = {
+		412196AC1D8CE38E00057BF2 /* Build configuration list for PBXProject "UVDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				412196A31D8CE2B900057BF2 /* Debug */,
-				412196A41D8CE2B900057BF2 /* Release */,
+				412196C61D8CE38E00057BF2 /* Debug */,
+				412196C71D8CE38E00057BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		412196A51D8CE2B900057BF2 /* Build configuration list for PBXNativeTarget "UVDemo" */ = {
+		412196C81D8CE38E00057BF2 /* Build configuration list for PBXNativeTarget "UVDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				412196A61D8CE2B900057BF2 /* Debug */,
-				412196A71D8CE2B900057BF2 /* Release */,
+				412196C91D8CE38E00057BF2 /* Debug */,
+				412196CA1D8CE38E00057BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 412196861D8CE2B900057BF2 /* Project object */;
+	rootObject = 412196A91D8CE38E00057BF2 /* Project object */;
 }

@@ -1,5 +1,4 @@
-platform :ios, "9.0"
-xcodeproj 'UVDemo/UVDemo.xcodeproj'
+platform :ios, '9.0'
 
 target 'UVDemo' do
   pod 'uservoice-iphone-sdk', '~> 3.2'
